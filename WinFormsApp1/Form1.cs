@@ -15,7 +15,7 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             context = this;
-            botClient = new TelegramBotClient("1875177594:AAF17EMvs9uIuDgVXsAFyPffbVur7JJcgH8");
+            botClient = new TelegramBotClient();
             service = new SyncService();
             timer2.Enabled = true;
 
